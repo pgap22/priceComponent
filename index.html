@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet" />
+  <script defer src="app.js"></script>
+</head>
+
+<body class="bg-VeryLightGrayishBlue overflow-x-hidden relative">
+  <main class="relative overflow-x-hidden">
+
+    <img src="./images/bg-top.svg" alt="topDecoration" class="absolute -top-10 -right-44 lg:-right-0 lg:top-0 -z-10">
+    <img src="./images/bg-bottom.svg" alt="topDecoration" class="fixed hidden lg:block left-0 bottom-0">
+
+    <div class="flex flex-col items-center gap-11 py-11 mx-10">
+      <h1 class="text-GrayishBlue text-3xl font-bold">Our Pricing</h1>
+      <div class="flex gap-4">
+        <p class="text-LightGrayishBlue">Annually</p>
+        <div class="w-14 h-7 primaryColor rounded-2xl relative lg:w-20 lg:h-10 lg:rounded-3xl">
+          <div id="switch"
+            class="aspect-square bg-white w-[22px] lg:w-7 rounded-full absolute top-2/4 -translate-y-1/2 left-1 transition-all duration-[260ms] translate-x-[26px] lg:translate-x-[42px]">
+          </div>
+        </div>
+        <p class="text-LightGrayishBlue">Monthly</p>
+      </div>
+
+      <div class="flex flex-col items-center lg:justify-center lg:gap-0 w-full gap-5 max-w-sm lg:flex-row lg:max-w-none mx-6">
+
+
+        <div class="bg-white min-w-full lg:min-w-0 lg:w-11/12 lg:max-w-sm p-6 flex flex-col items-center gap-3 rounded-lg lg:rounded-none lg:rounded-l-lg lg:py-9 shadow-lg">
+          <div class="flex flex-col items-center gap-4">
+            <h3 class="text-GrayishBlue lg:text-lg">Basic</h3>
+            <h2 class="text-DarkGrayishBlue text-6xl" id="basic">$199.99</h2>
+          </div>
+          <ul class="w-full text-center my-5">
+            <li class="text-GrayishBlue text-sm py-4 lg:text-base border-t border-b">
+              500 GB Storage
+            </li>
+            <li class="text-GrayishBlue text-sm py-4 lg:text-base">2 Users Allowed</li>
+            <li class="text-GrayishBlue text-sm py-4 lg:text-base border-t border-b">
+              Send up to 3 GB
+            </li>
+          </ul>
+          <div class="primaryColor w-full flex justify-center select-none cursor-pointer hover:bg-white border hover:border-secondary hover:bg-none transition-all ease-in duration-200 rounded-lg group">
+            <p class="uppercase tracking-widest text-sm text-white py-3 shadow-sm group-hover:text-secondary">
+              Learn More
+            </p>
+          </div>
+        </div>
+
+        <div class="primaryT-B min-w-full lg:min-w-0 lg:w-11/12 lg:w-full lg:max-w-sm p-6 flex flex-col items-center gap-3 rounded-lg lg:py-14 shadow-lg">
+          <div class="flex flex-col items-center gap-4">
+            <h3 class="text-white lg:text-lg">Professional</h3>
+            <h2 class="text-white text-6xl" id="profesional">$249.99</h2>
+          </div>
+          <ul class="w-full text-center my-5">
+            <li class="text-white text-sm py-4 lg:text-base border-t border-b">
+              1 TB Storage
+            </li>
+            <li class="text-white text-sm py-4 lg:text-base">5 Users Allowed</li>
+            <li class="text-white text-sm py-4 lg:text-base border-t border-b">
+              Send up to 10 GB
+            </li>
+          </ul>
+          <div class="bg-white w-full flex justify-center select-none cursor-pointer hover:bg-transparent border hover:border-white hover:bg-none transition-all ease-in duration-200 rounded-lg group">
+            <p class="uppercase tracking-widest text-sm text-secondary py-3 shadow-sm group-hover:text-white">
+              Learn More
+            </p> 
+          </div>
+        </div>
+
+        <div class="bg-white min-w-full lg:min-w-0 lg:w-11/12 lg:w-full lg:max-w-sm p-6 flex flex-col items-center gap-3 rounded-lg lg:rounded-none lg:rounded-r-lg lg:py-9 shadow-lg">
+          <div class="flex flex-col items-center gap-4">
+            <h3 class="text-GrayishBlue lg:text-lg">Master</h3>
+            <h2 class="text-DarkGrayishBlue text-6xl" id="master">$399.99</h2>
+          </div>
+          <ul class="w-full text-center my-5">
+            <li class="text-GrayishBlue text-sm py-4 lg:text-base border-t border-b">
+              2 TB Storage
+              
+              
+            </li>
+            <li class="text-GrayishBlue text-sm py-4 lg:text-base">10 Users Allowed</li>
+            <li class="text-GrayishBlue text-sm py-4 lg:text-base border-t border-b">
+              Send up to 20 GB
+            </li>
+          </ul>
+          <div class="primaryColor w-full flex justify-center select-none cursor-pointer hover:bg-white border hover:border-secondary hover:bg-none transition-all ease-in duration-200 rounded-lg group">
+            <p class="uppercase tracking-widest text-sm text-white py-3 shadow-sm group-hover:text-secondary">
+              Learn More
+            </p>
+          </div>
+        </div>
+          
+      </div>
+
+
+    </div>
+  </main>
+  <!-- Our Pricing
+  Annually
+  Monthly
+
+  Basic
+  &dollar;19.99
+  &dollar;199.99
+  500 GB Storage
+  2 Users Allowed
+  Send up to 3 GB
+  Learn More
+
+  Professional
+  &dollar;24.99 
+  &dollar;249.99
+  1 TB Storage
+  5 Users Allowed
+  Send up to 10 GB
+  Learn More
+
+  Master
+  &dollar;39.99
+  &dollar;399.99
+  2 TB Storage
+  10 Users Allowed
+  Send up to 20 GB
+  Learn More -->
+</body>
+
+</html>

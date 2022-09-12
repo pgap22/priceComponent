@@ -1,0 +1,17 @@
+.primaryColor{
+    @apply bg-gradient-to-r from-primary to-secondary;
+}
+.primaryT-B{
+    @apply bg-gradient-to-br from-primary to-secondary;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    @apply font-montserrat;
+}
+.addclases{
+    @apply bg-none bg-primary;
+}
+
